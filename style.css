@@ -97,14 +97,16 @@
     background-color: #151515;
     min-height:calc(100vh - 50px);
     color: white;
+    padding: 30px;
   } 
 
-  .content-container {
-    padding-left: 50px;
-  }
+  /* .content-container {
+    padding-left:px;
+    
+  } */
 
   .imageslidebar{
-    min-height: 50vh;
+    height: 50vh;
     border:1px solid silver;
     background-image: url(img/a.jfif);
     background-repeat: no-repeat;
