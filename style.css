@@ -85,10 +85,25 @@
     padding-left: 50px;
   }
 
-  .img-background-container {
+  .imageslidebar{
     height: 50vh;
-    background-color: blueviolet;
-  }
+    border:1px solid silver;
+    background-image: url(img/a.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name:movie ;
+    animation-delay:3s ;
+    animation-duration:10s ;
+    animation-iteration-count:infinite ;
+
+
+}
+@keyframes movie{
+    25%{background-image: url(img/O.jfif) ;}
+    50%{background-image: url(img/yes.jfif);}
+    75%{background-image: url(img/download.jfif);}
+
+}
 
   .movie-list-container {
     padding: 20px;
