@@ -52,6 +52,7 @@
 
   .left-menu-icon:hover , a:hover, .profile-text-container:hover{
     color:#AA14F0;
+    cursor: pointer;
   }
 
   .profile-container {
@@ -111,12 +112,15 @@
 
   .movie-list-wrapper{
     position: relative;
+    overflow: hidden; 
   }
 
   .movie-list {
     display:flex ;
     align-items: center;
     height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
   }
 
   .movie-list-item {
