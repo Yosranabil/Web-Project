@@ -31,6 +31,11 @@
     font-size: 40px;
     color: #AA14F0;
   }
+
+  .logo-name{
+    color: #AA14F0;
+    padding: 0 100px;
+  }
   
   .menu-container {
     flex:6;
@@ -47,6 +52,10 @@
 
   .menu-list-item {
     margin-right: 35px;
+  }
+
+  .left-menu-icon:hover , a:hover, .profile-text-container:hover{
+    color:#AA14F0;
   }
 
   .profile-container {
@@ -73,8 +82,17 @@
     background-color: black;
     position: fixed;
     top: 0;
+    flex-direction: column;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: space-around;
   }
-  
+
+  .left-menu-icon{
+    color: white;
+    font-size: 20px;
+    margin: 0 0 60px 10px;
+  }
   .container {
     background-color: #151515;
     min-height:calc(100vh - 50px);
@@ -85,11 +103,25 @@
     padding-left: 50px;
   }
 
-  .img-background-container {
-    height: 50vh;
-    background-color: blueviolet;
-  }
+  .imageslidebar{
+    min-height: 50vh;
+    border:1px solid silver;
+    background-image: url(img/a.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name:movie ;
+    animation-delay:3s ;
+    animation-duration:10s ;
+    animation-iteration-count:infinite ;
+    
 
+}
+@keyframes movie{
+    25%{background-image: url(img/O.jfif) ;}
+    50%{background-image: url(img/yes.jfif);}
+    75%{background-image: url(img/download.jfif);}
+
+}
   .movie-list-container {
     padding: 20px;
   }
@@ -121,6 +153,7 @@
     height: 210px;
     object-fit: cover;
     transition: all 1s ease-in-out;
+    border-radius: 20px;
   }
 
   .movie-list-item-title {
@@ -133,6 +166,7 @@
     left: 50px;
     opacity: 0;
     transition: all 1s ease-in-out;
+    border-radius: 20px;
   }
 
   .movie-list-item-descr {
@@ -145,4 +179,5 @@
     width: 230px;
     opacity: 0;
     transition: all 1s ease-in-out;
+    border-radius: 20px;
   }
