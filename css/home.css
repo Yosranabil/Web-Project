@@ -57,6 +57,7 @@
 
   .left-menu-icon:hover , a:hover, .profile-text-container:hover{
     color:#AA14F0;
+    cursor: pointer;
   }
 
   .profile-container {
@@ -109,7 +110,7 @@
   .imageslidebar{
     height: 50vh;
     border:1px solid silver;
-    background-image: url(img/a.jfif);
+    background-image: url(../img/download.jfif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     animation-name:movie ;
@@ -120,9 +121,9 @@
 
 }
 @keyframes movie{
-    25%{background-image: url(img/O.jfif) ;}
-    50%{background-image: url(img/yes.jfif);}
-    75%{background-image: url(img/download.jfif);}
+    25%{background-image: url(../img/a.jfif) ;}
+    50%{background-image: url(../img/O.jfif);}
+    75%{background-image: url(../img/yes.jfif);}
 
 }
   .movie-list-container {
@@ -183,4 +184,9 @@
     opacity: 0;
     transition: all 1s ease-in-out;
     border-radius: 20px;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
   }
