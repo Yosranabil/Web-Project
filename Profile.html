@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
+   <head>
     <link rel="stylesheet" href="css/profile.css">
     <script src="https://kit.fontawesome.com/50edb78f3a.js" crossorigin="anonymous"></script>
-   
-</head>
-     <title>Profile page</title>
+    <title>Profile page</title>
+   </head>  
 <body>
   <div class="navbar">
     <div class="navbar-container">
         <div class="logo-container"><h1 class="logo">Y.M.N</h1></div>
         <div class="logo-name"><h2>Your Movie Night</h2></div>
-        <div class="menu-container">
+         <div class="menu-container">
             <ul class="menu-list">
                 <li class="menu-list-item-active">Home</li>
                 <li class="menu-list-item">Geners</li>
                 <li class="menu-list-item">login</li>
                 <li class="menu-list-item">Signup</li>
             </ul>
-        </div>
-   </div>
+         </div>
+  </div>
  <div class="container">
-     
      <div class="profile">
-      <h3><i>"Edit Profile" </i> </h3>
-      <br>
-      <br>
+      <h3>"Edit Profile"</h3><br><br>
         <div class="img-icon">
            <img src="img/Screenshot 2022-08-21 121304.png" id="photo">
            <input type="file" name="img" id="file" accept="image/*">
            <label for="file"  id="uploadbtn">Choose Photo</label>
-        </div>  
-      
-          <br>       
+        </div><br>
+  <form class="prof-form">      
       <div class="uname">
         <i class="fa-solid fa-user"></i>
         <input type="text" placeholder="Enter your Username" id="uname" name="name" required minlength="3">
        </div>
        <div class="pass">
           <i class="fa-solid fa-lock"></i> 
-          <input type="password" placeholder="Password" id="pass" name="password" required pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+          <input type="password" 
+                 placeholder="Enter a Password" 
+                 id="pass" 
+                 name="password" 
+                 required 
+                 pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,}$" 
+                 title="Must contain at least one  number and one uppercase and lowercase letter and one symbol, and at least 8 characters">
+                
         </div>
         <div class="mail">
            <i class="fa-solid fa-square-envelope"></i>
@@ -47,15 +49,15 @@
         </div>
         <div class="phone">
          <i class="fa-solid fa-mobile-screen-button"></i>
-         <input type="number" name="phone" id="phone" placeholder="Enter your number" >
+         <input type="tel" name="phone" id="phone" placeholder="01...." minlength="11" maxlength="11" required pattern="[0-9]{11}" >
         </div>  
         
-        <button style="float: left;margin:10px 0 0 10%">CANCEL</button>   
+        <button type="reset" style="float: left;margin:40px 0 0 10%">CANCEL</button>   
        
-        <button  type="submit" style="float: right;margin:10px 10%" >Submit</button>
-
+        <button style="float: right;margin:40px 10%">Submit</button>
+    </form> 
     </div>
   </div>
-  <script src="profile.js"></script>  
-    </body>
+  <script src="js/Profile.js"></script>  
+</body>
     </html>

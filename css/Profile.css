@@ -83,7 +83,7 @@ h3{
 }
 .profile input{
     font-family: "Roboto", sans-serif;
-    width: 200px;
+    width: 220px;
     height: 40px;
     border: none;
     margin: 0 0 15px;
@@ -91,6 +91,13 @@ h3{
     border-radius: 32px;
     background: #d2b7df;
 }
+
+.prof-form input:focus{
+  width: 240px;
+  border-color: aqua;
+  transition: all 0.2s ease-in-out;
+}
+
 
 .uname,.pass,.mail,.phone{
     background-color: none;
@@ -110,9 +117,9 @@ h3{
     max-width: 800px;
     margin-top: 30px;
     height: 500px;
-    border: 2px solid #F1F1F1;
+    border: 5px outset #38094e;
     box-shadow:0 8px 30px #E2DCC8;
-    border-radius: 5px ;
+    border-radius: 10px ;
     padding: 37px 25px;
     background-color: #AA14F0;  
     text-align: center;
