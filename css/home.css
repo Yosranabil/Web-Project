@@ -190,3 +190,54 @@
     color: white;
     text-decoration: none;
   }
+  .footerr{
+    height:20vh;
+    border:1px solid #AA14F0;
+    background-color: #AA14F0;
+    background-repeat: no-repeat;
+  }
+.social_icon,.menu
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+.social_icon li,.menu li
+{
+  list-style: none;
+}
+.social_icon a
+{
+  font-size: 2em;
+  color:#151515;
+  margin:0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social_icon li a:hover{
+  transform: translateY(-10px);
+}
+.menu  a{
+  font-size: 1.2em;
+  color:#151515;
+  margin:10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity:0.75 ;
+}
+.menu li a:hover{
+  opacity:1;
+}
+footer p{
+  color: #BC8CF2;
+  text-align: center;
+  font-size: 1.1em;
+}
+.team{
+  color: #333;
+  font-size:1.1em ;
+}
