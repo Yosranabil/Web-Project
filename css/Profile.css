@@ -93,8 +93,8 @@ h3{
 }
 
 .prof-form input:focus{
-  width: 240px;
-  border-color: aqua;
+  width: 232px;
+  border: 3px outset aqua;
   transition: all 0.2s ease-in-out;
 }
 
@@ -180,5 +180,14 @@ button{
     transform: scale(1.1);
   }
 
-
-
+  .eye{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -35px;
+    overflow:visible;
+    cursor: pointer;
+  }
+  
+  #show{
+    display: none;
+  }

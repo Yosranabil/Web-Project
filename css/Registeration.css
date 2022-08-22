@@ -66,8 +66,8 @@ a{
 }
 
 .form input:focus{
-  width: 260px;
-  border-color: aqua;
+  width: 255px;
+  border:3px outset aqua;
   transition: all 0.2s ease-in-out;
 }
 
@@ -76,6 +76,7 @@ a{
   position: absolute;
   margin-top: 17px;
   margin-left: -25px;
+  overflow:visible;
 }
 
 #show{

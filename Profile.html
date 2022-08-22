@@ -3,6 +3,24 @@
    <head>
     <link rel="stylesheet" href="css/profile.css">
     <script src="https://kit.fontawesome.com/50edb78f3a.js" crossorigin="anonymous"></script>
+    <script>
+      function Show_Pass(){
+          var x = document.getElementById("pass");
+          var y = document.getElementById("show");
+          var z = document.getElementById("hide");
+
+          if(x.type === 'password'){
+              x.type = "text";
+              y.style.display = "block";
+              z.style.display = "none";
+          }
+          else{
+              x.type = "password";
+              y.style.display = "none";
+              z.style.display = "block";
+          }
+      }
+  </script>
     <title>Profile page</title>
    </head>  
 <body>
@@ -41,6 +59,10 @@
                  required 
                  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,}$" 
                  title="Must contain at least one  number and one uppercase and lowercase letter and one symbol, and at least 8 characters">
+                 <span class="eye" onclick="Show_Pass()">
+                  <i id="show" class="fa-solid fa-eye"></i>
+                  <i id="hide" class="fa-solid fa-eye-slash"></i>
+                 </span>
                 
         </div>
         <div class="mail">
