@@ -18,3 +18,14 @@ arrows.forEach((arrow, i) => {
     });
   
   });
+
+  /* Open when someone clicks on the span element */
+  function openNav(clicked_id) {
+
+    document.getElementById(clicked_id).style.width = "100%";
+  }
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+  function closeNav(clicked_id) {
+    document.getElementById(clicked_id).style.width = "0%";
+  } 

@@ -110,20 +110,21 @@
   .imageslidebar{
     height: 50vh;
     border:1px solid silver;
-    background-image: url(../img/download.jfif);
+    background-image: url(../img/4.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     animation-name:movie ;
     animation-delay:3s ;
     animation-duration:10s ;
     animation-iteration-count:infinite ;
-    
+    padding: 25px;
+    transition: all 0.2s ease-in-out;
 
 }
 @keyframes movie{
-    25%{background-image: url(../img/a.jfif) ;}
-    50%{background-image: url(../img/O.jfif);}
-    75%{background-image: url(../img/yes.jfif);}
+    25%{background-image: url(../img/1.jpg) ;}
+    50%{background-image: url(../img/2.jpg);}
+    75%{background-image: url(../img/3.jpg);}
 
 }
   .movie-list-container {
