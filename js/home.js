@@ -32,3 +32,33 @@ if(localStorage.getItem("header") == null) {
 SetColor(localStorage.getItem("mainColor") || "black");
 
 // setfont(localStorage.getItem("mainFont") ||' "Roboto",sans-serif' ); 
+
+const search = () =>{
+  const searchbox = document.getElementById("search_input").value.toUpperCase();
+  const storeitems = document.getElementById("search_bx");
+  const product = document.querySelectorAll(".film");
+  const pname = document.getElementsByTagName("h6");
+
+  for(var i = 0; i < pname.length; i++){
+    let match = product[i].getElementsByTagName('h6')[0];
+
+    if(match){
+      let textvalue = match.textContent || match.innerHTML
+
+      if (textvalue.toUpperCase().indexOf(searchbox) > -1){
+        product[i].style.display = "";
+      } else{
+        product[i].style.display = "none";
+      }
+    }
+  }
+}
+
+function open_search() {
+  var x = document.getElementById("box");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 

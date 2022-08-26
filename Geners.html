@@ -14,20 +14,135 @@
         <div class="navbar-container">
             <div class="logo-container"><h1 class="logo">Y.M.N</h1></div>
             <div class="logo-name"><h2>Your Movie Night</h2></div>
+           
             <div class="menu-container">
-                <ul class="menu-list">
-                    <li class="menu-list-item">Home</li>
-                    <li class="menu-list-item">Geners</li>
-                    <li class="menu-list-item">login</li>
-                    <li class="menu-list-item">Signup</li>
-                </ul>
+                <div class="search">
+                    <input type="text" placeholder="Search movies..." id="search_input" onclick="open_search()">
+                    <i class="fa-solid fa-magnifying-glass" id="search_icon" onclick="search()"></i>
+                </div>
             </div>
+
+
+
             <div class="profile-container">
                 <img class="profile-picture" src="img/Screenshot 2022-08-21 121304.png">
                 <div class="profile-text-container">
                     <span class="profile-text"><a href="Profile.html">Profile</a></span>
                     <i class="fas fa-caret-down"></i>
                 </div>
+            </div>
+
+            <div class="search_bx" id="box">
+                    <div class="film">
+                        <a onclick="">
+                            <img src="img\\amb.jpg">
+                            <div class="content2">
+                                <h6>Ambulance</h6>
+                                <p>Action</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="film">    
+                        <a href="">
+                            <img src="img\\meg.jpg">
+                            <div class="content2">
+                                <h6>The Meg</h6>
+                                <p>Action</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="img\\red.jpg">
+                            <div class="content2">
+                                <h6>Red Notice</h6>
+                                <p>Action</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="film">
+                        <a href="">
+                            <img src="img\\uncharted.jpg">
+                            <div class="content2">
+                                <h6>Uncharted</h6>
+                                <p>Action</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="film">
+                        <a href="">
+                            <img src="img\\grayman.jpg">
+                            <div class="content2">
+                                <h6>Gray Man</h6>
+                                <p>Action</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="film">
+                        <a href="">
+                            <img src="img\\tomorrowwar.jpg">
+                            <div class="content2">
+                                <h6>The Tomorrow War</h6>
+                                <p>Action</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="film">
+                        <a href="">
+                            <img src="img\\intern.jpg">
+                            <div class="content2">
+                                <h6>Internship</h6>
+                                <p>Comedy</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="film">
+                        <a href="">
+                            <img src="img\\yes.jfif">
+                            <div class="content2">
+                            <h6>Yes Day</h6>
+                                <p>Comedy</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="film">
+                        <a href="">
+                            <img src="img\\dog-movie-poster.jpg">
+                            <div class="content2">
+                                <h6>Dog</h6>
+                                <p>Comedy</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="film">
+                        <a href="">
+                            <img src="img\\Senior-Year.jpg">
+                            <div class="content2">
+                                <h6>Senior Year</h6>
+                                <p>Comedy</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="film">
+                        <a href="">
+                            <img src="img\\10.jpg">
+                            <div class="content2">
+                            <h6>Due Date</h6>
+                                <p>Comedy</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="film">
+                        <a href="">
+                            <img src="img\\the-millers.jpg">
+                            <div class="content2">
+                                <h6>We're The Millers</h6>
+                                <p>Comedy</p>
+                            </div>
+                        </a>
+                    </div>
+
+
         </div>
     </nav>
     <aside class="sidebar">
@@ -535,73 +650,73 @@
             <div id="myNav1" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav1').id)">&times;</a>
                 <div class="overlay-content">
-                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi86491161/1434659607842-pgv4ql-1623762913582.mp4?Expires=1661293208&Signature=ElwAFkUN1lGgMQJaDi-ZaICNJb6jIj2VTWDIhLe62EaKA85~0FnDyZJmLyX3kJ4tlESmISRkKtf2VPwqa3JR01r0IQ9C6PKBXDIX0XGxEtM3pHwGLhO9DWvdUBet4wSN4Verc~czpCo2Z1e5oZtyn0XsSl5rCJyPiY43sAjnFZ8Il~Hh9XskRivLj9zl88cn1RK5~ZJh85R6Ug4z-EgFz0RpHD6IjCWP9KdJqjE6Z8WQOlCIBMvEt2pAe5YleENTcevK1qIwjtTlGXjJ7t9rKZG4RF3NnGoRsL3IPOJwWDig~fRp~amiDj06njYPjYIJaQsb6qOoIWAwWy2ArAUxfQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi86491161/1434659607842-pgv4ql-1623762913582.mp4?Expires=1661555497&Signature=ftRdO82SF6Yhra3Yzsz-cVW9CK1g7iHNoNoBhnu1~DVcpC77y2ZvuimKOuW2CHQZ5fnLBEeP~HYV9s~lmtfQxL-mGdEC8xyQv4g0qhzI2-MHbgAjwZ8z8ny5XAh73HiZDdIOzKgxhFaWbYyftBzPQnGcMpGJ1ojOQkGdZT3f5ZBskAJsUBvORwmeAkLRCZBMDUf3LaTR0Nim1DRTPyeACv3zHVbHhi7VarFrtYbmUDokoA2rEzQk~Y5Ml8~xl6uvT-7rDgJjYfcDDlXj6CtEydDLKClL2n84wFanB4u8u0G0yrx3HF74vyYqQyshs4jo8qGNQioE9y-hPiE8F6542A__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>   
             </div>
             <div id="myNav2" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav2').id)">&times;</a>
                 <div class="overlay-content">
-                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi941736473/1434659607842-pgv4ql-1657910195912.mp4?Expires=1661293956&Signature=f2GqMchVGbOsDiFk2fogdfREmAn7rmkQDZe8~d7lbytqefb~R5qjnWN749ZHJ0qmseEIKc~qKWaPhXHzw0Ie7Y-D0cVAVRD8ZCNqY4u70IB~0kIn1ZxZMkmmYigDpQ9w8HmhKdy5cy1ZfIHfgIdJ7jMe61Qj9iXnxf43LeXrPjWz7DViRyjn-YEpycSEL4bSorUl20MeMMgyedXTUSjxza3FHCvDXDWee617--0188IRwYQUW1dcmChRqWAhqRghG48~FDTM2m~J3S9Lx4DefrwSBKbhutqpVCpyCEj8jRXZsQXalchkGCxMeetCxL6ldozXFg4wBJBTnvjf-5JClA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi941736473/1434659607842-pgv4ql-1657910195912.mp4?Expires=1661555897&Signature=OwM7WFuj3UJVA06UOSAKcSUCCSnl4J60BqgduciXQDZ16cNnatRPDJQQQc3K~GbxZwLApwDiwu2UNCXwWFTQR-1cngrRNmAocYjol1C0agsDLW2mq-nu6S5JnnNQPfTy2yX~W74WkXonNeWkxTBVFdBxBxLMtWI-W7idVi80Wc8auBO-6qiZFsBLkPSgt668uX5H2~ObcFGuVyy0XW6puKqoCGyWRPTBASNxyk8F-eNImcdkKOl7zSE6qb~fqnwGf6QeeawX-LGPAVqjntklPOE3dtkM3YgLSVHSzOtuchtCdDQjBriCCcwIt4Gq78l7u-sEvGs9Z4MOT~RYHZY50Q__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>   
             </div>
             <div id="myNav3" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav3').id)">&times;</a>
                 <div class="overlay-content">
-                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi420201241/1434659607842-pgv4ql-1644274969357.mp4?Expires=1661295068&Signature=V0p3diNKYjYohYj7amZcWJYj1asziCcj-Hq~nSGt25-26PfsgBqGLDvSElvvI8fSHwtz~7eDsg8TNnE3KJ2LpuQvzftsJ002vvdnrwnqLNKPr1f99PiikSU-oNLCVRN~Co98hOVbQfidpWNelkUtUtLOT6qroQBAf2AuOJdO4TlFtHAAD6TwE2P9kr-HXNCeSYNvO78OcvmU44d7YWd8YLcIkUvZ7n-5i2xL5c3K7pq1V3H8Ejkn2jwnKYXtgOKeT-7DF4X3dp~OONfc3NJUNcPmQ883dBb2GZORqth6jcDU0UeZlOtzxNb6y3wVS~OMh7CJl8qLBqPdHn6hTKSLEQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi420201241/1434659607842-pgv4ql-1644274969357.mp4?Expires=1661555999&Signature=d1VKOcG3I~QeoqxL050SPNdeLKimrluunMgsJG8yKKBx3jhoCloCCN20arr2p7TFvmVStcif-5pkU6-79fDVpcNYBrTZzv3sSyzEI32Le81-OtI2G459PENM6U5emLLqMhT5K7nio4ZSsr3DIv5QLhiYYtVU2c0otJfQYMan594AFCHUStJaj9WhbXKpUCA0iy~5VyoaVqJQrcHNnnDywWpKc0BcvcyiGYZ3Hhzo7xT-8hkL96v6s9I-jb0dyYsvo0T1SZ98Ghahu2EBJ5n2o6CsMHBrG7ZvJR26HU1s-IoeYOuB14FIZ6ZTyJuvaUk0Tsswd7sr71CNl8~suYPs4w__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>   
             </div>
             <div id="myNav4" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav4').id)">&times;</a>
                 <div class="overlay-content">
-                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi3497834521/1434659607842-pgv4ql-1523336958996.mp4?Expires=1661296396&Signature=k7tDdEV3UtAEnqWhD96Er5SCE~rR4fBBq0-g4MlWoKiPQfKC2Go8tFyNybNW2O01ropdwzJYt1RdWrzzNNc4y5dstJxuKlkf40PxhZv6VJtuJnwaJyagwGhvbPVd8I4MtAAIkzykCyTj5FXf9-4S4Dnos3ecMSlCWOSYikgcHVM7f~SuxCdJ3AgfGjY5hz1hOrJVcEFXRPa5yaPEdUYLG4dD-0YxnVjNzVdsXDSYjWvaPoXwvWdvKTiBkLjLus5So7yxMFNjGV0LceTYTyYAPgeqRupQNsMTEd9N-Q4HLsvX2ZhjjXDYnJgFFOZj8TV826j4TUdsOgpLzI45x5VZ2A__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi3497834521/1434659607842-pgv4ql-1523336958996.mp4?Expires=1661556135&Signature=YER19FRYeDZbEs4UEqLTq2~iZLQ8yN93TZJFthrVRtN61ERwb1ciNM-wSpxEFPu5OUVywO9pU4otRZTKT~0QMUEH38oPqHypL7dsWQOtcpJXzFp7X4ligtaOBtiAerMm4ZgEC4jxtbQKfOONJtR6veZIlUO5V10rNbEw~ke6S3uNqBUQQ2JkoEd5tX03LW3p51~X7pzq-d1kKUk5P1U8ZwCB91i-ODmtXqbE-iLE602VUDO8AtSmI-zUGeUWaPGJTlBe9X2cF81o5mFZHeLeIdtPquaeyxKqjxRLr5SxCo--yWWu5LcrZUHKK0srz7G-MN~QfhwXzn15wu3BNU591A__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>   
             </div>
             <div id="myNav5" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav5').id)">&times;</a>
                 <div class="overlay-content">
-                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi612877081/1434659607842-pgv4ql-1634822259823.mp4?Expires=1661296576&Signature=tZ5iS7VR~emoxp3BEh9clvfpgePRSjqsYGpOX3OEk4itMI-VD5r2R1CbeBbiv~j3CqWl0aUDacPH2KnHNEmoEsmgakVa2HG0gzxQvVn2wA3WkILWskps1SVJ5QFnOeC1QX-l1dJrE1hbMEkEjfAJoy09m7j~1DrlNpuB7kHu~MKzGzzmq-GoMNyq~TfTxIbqGvLuJs0QrHatnduZD5NT~qzHm-zFn-Yg8f-TVot5sV~YxJ6sa~cgmVkHwPoEughS3aj0PthNyADZM-GzK-3DrO9SdHjrMoqCX1lZSdrppoLZ2sxtIuEv6LJpDYjudUy~FrBm8tdTOXqu8ioe0U7-oQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi612877081/1434659607842-pgv4ql-1634822259823.mp4?Expires=1661556413&Signature=tlCMPo2PkTOxoYDhY-9AeZibdbaJ0xjaauClE0meP6Elp9w5IacJkGQLbV6nhuEguSCezbeKrFr8RujC7QhV8J3KaXAIxu8ScHpisme-5V7FsM39H6lChxkk00Q5j1zTV9MfrK-w9lcjoDWaUZVp~smybLhyYhZmhZuU1J2HIhVtc3hUZbfcxB8-eH~2MQWvlW8ySs9Vs-GwU42xWZkMDPcGu06BB~Nk-2KQimcvIUT7Y7fQKP-50cNk84xnx8uvE4NKlV9CT1qR0PxPbp95oAMoO~cekXZExwPSxvYMefmedHWqh87E-V1nHxZkDXIHRNleDPBlLf511h0pnrffQg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>   
             </div>
             <div id="myNav6" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav6').id)">&times;</a>
                 <div class="overlay-content">
-                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi55427865/1434659607842-pgv4ql-1648138320884.mp4?Expires=1661296632&Signature=uZPTfL~VhgQMVuDX2QflMR6AqAGv9UOoEHX30nnR8xo22cypKTU~RFsUZE0jPsorXQDYge-f~66tL0XP-BxejdpJ~I~iE8XvnPP7yP8M9sb5zYVrzueDqrGQW5wd96UD192J~ZkSpEhuMBIFloDhqcEI17DzUtQKW-QGW-CFCIAQTbKbe~NVl5RkpnYhTcfBmM50aqtr5PQPDC0Opx1W5Wmy8wtVgOIHynvWp640p9pRl5T24xUVo3MhuRyIp6sLW8nFKHtsoEJWhC4hlWbtqOWoE4w5HQ0r4RIV3XT1v5kfctB7i~6o4CnZJnQtoCrnVyRzIHbsd7GpXsH4UAClbA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi55427865/1434659607842-pgv4ql-1648138320884.mp4?Expires=1661556431&Signature=SDjbk0~oGkYhx30-6RYU-uRCIHwojgKJZVvCrEZ1BzJoKrDY-pnqYDw9af~9Vna28LYz1EgGlB09RwWuHo8rVvjPVFwpF6DY8m~oGhOuZjq4Qe3aj6uynK8HfMtv7H6ndwZ80W-2ZmvjspAXs3EDfcvLZPFjTKyAPiefGxdDRyUmwSNADNulAugGFWDVD~iSnV06eCmlAgmLTEj9Yl0T8jKrjf~G0M6XgqsR6pns8s-hTvmyWHcPEXah1~n55klvp-2vEg-HpmqoF41Y0Wzv68EbYqdGvNcuwp9mn6NsbCvGM7JqTw4mlJLSlR7AmJ9gJbypxyoLybzbuTEHF1pYHA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>   
             </div>
             <div id="myNav7" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav7').id)">&times;</a>
                 <div class="overlay-content">
-                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi1707648537/1434659607842-pgv4ql-1616203234368.mp4?Expires=1661299772&Signature=ojX6DhfKO9fEnmG~dah8bhBqAezqouHzM4pD1W7hPMAaWPbSuFuxdjV-UQRc5ksSBHFCnKaIQ4~lTsF0528ZHecwBMfgxfSMFQlToFOXs6EW-gptcjlyYzMVZ-IocjLSSKoHwfM-x937sy1qPOKPMdpiRqCMNPY-w-v20pu7beXrEKFLmbN7-rZ~hfsETwHkni41J1mfBpM~Ar7hOPYw9cNt2GZ~~acDIDD8mTM-89PBKeHnL7m4EX0kCWLaBY27eNu0oKs0XdYlJXGHCCz8VUxy52ZeNn8uUPqUwGtEV-Ysm9YnCe1GD0Te96EyROpBIgSSXed3xtLvsRk3eOt7wA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi1707648537/1434659607842-pgv4ql-1616203234368.mp4?Expires=1661556605&Signature=bUkQx5GjTf5iGmgsLT6Cm36otk2AMFQpg0l7izWZ9nXCjVPw2qSzTFIxnmwX7-NRGfHiQkVKm5TJ5BNFNDKPc2HUCcyvzfrljqryY3D6SQm7-jIHXaHGXV0QD9Ufxxrgv1GsBpIZ-f2VjMK2yoECHm9wo5-dOcBMAl0kD8umFDWxhw6zE1QI0d4tv4c1JyJfy4aF0EmoattBeYYYqO9Uf1LCZ1TTPR0ijiM-1gci0MAB--532VnNAFeSjfIzhjX~rq4NbpUWreXIj87J75oNxsYwiu0kHFcrQoAN7AHIGogyh4kavqdsiquc~WZx4Z0Q2EHuIQZCY1goHtD~pEds9Q__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>   
             </div>
             <div id="myNav8" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav8').id)">&times;</a>
                 <div class="overlay-content">
-                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi140362009/1434659607842-pgv4ql-1612972519200.mp4?Expires=1661300052&Signature=j4AafaxaA7e4R4-A-LIqh~6E~b3-wQ-9VSNmHlP2xDgDxUoDAB0ReIe2LeTB3K~V9tbq4HVBtktr5MTNzEjBgH4gW3RpgTqu1v2OD-4kxyfR1Pzjn-PBispy~rUb2wa53fEWxUF1DN547t~xGu~ftY-MogR22npP2YmmPEI2pM87WJeVGlqYEpiXyJHFr657APr--3obdFvVOiP5OlHvIb-3po417hST9OvQQpNnmQ-JEureu~0WteldxKg-AI3ELad-TqdvCrR7KtPwp0GI~nOKuk36jvMw7I-4CdprYKH87mel4rNVKYxjRK3D5~6OMeDE6gdxrCWpwJlXK7Jl0Q__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi140362009/1434659607842-pgv4ql-1612972519200.mp4?Expires=1661556608&Signature=YSORYB5aHLU2pMJFlAQST1aA1hZJQxZU~9krB~Hz1hALuuBWBAnalpLiqwaC0LpWJVBLzcsHRYv~pdMog19mQMXhUQsqk2TuA4irQMXodH-Nh6LLxkVlqF4QAQb4KuuKDHAesjggJQ7l32yLT0jUD9gN3TcqRln4xw8g24TMbt0X51~-of4qyJgyWk3cgNyPhavTRdJ8F8xZW3IujoO~lwsiLVMrLMXiiR8o2As0aHIBwbNPhCVv-1IKHv4DCi29u02IPfeWabjx8jXZdOXPTthBlbIXj0xqJ89lJx7SiTP42ZZh2NaE6dsEQJckPDrvwiUXTM2BUcBmJhgL0wBjvQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>   
             </div>
             <div id="myNav9" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav9').id)">&times;</a>
                 <div class="overlay-content">
-                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi879925529/1434659607842-pgv4ql-1616204475797.mp4?Expires=1661300099&Signature=NhygyOAsbMbvOOA0bNDJhT6ZtbaOQKCsbK23CC4Wy~uVH4~BZwhypyKy9nPUK2~-geX-hS1TXMe75~8ekqGVUEDCEGvy1QLrc-xxl7mVPQoQvE3F5iOvXNw6HvWcQqvoqGKHsUuYpO3krNgRtCTXe~SeZofQrLFiXpZiByU2oXhfsY1X414eKMDwYz-r~i0U8rxJUzlVCLPDZEpAfzsYKoH6ETaW022jrtMIpPn~Q4-JWbSHRc-wO~jIkt9s8LoqioJR9a2-xDXrePGpieLipd8CKdIU2lES9~P8n--d0PVrYdmOPLKwKUHEhp5CySXHIDt33c3zwCWOzs8BV4hhLw__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi123967769/MV5BMmQ2YzhhOTctNzNiZi00NWQ4LWE4Y2MtMWI3YjBlZTdkMDE2XkExMV5BbXA0XkFpbWRiLWV0cy10cmFuc2NvZGU@.mp4?Expires=1661556635&Signature=CAJBApUGGlAIk5oqX2jEpH0MIoqOVKpJAm56sC~KrGolVgSV40rsudV9OsxIarnUL0ZdT1qIEk5OmScPLIpxP63Hk-6TRtL1l4rs9UIWMuT5krb0~BdJ446vmv07zsm5hmO4lQEJtnaJVXHqFU9FsOB0TEIXZKkqS~FFSQ5aa7Wxbd60I2p7tYuCzsfrXY5UGKyLiDpQg~ZOHcTI~ctxvUIEW69gnQ3jO9YPTKJLD41yJ2x7L5pMiUI9R3~PWIpTlzOdRga6HNE4l6B7~Hysjh~Yk~vxLS-vnbb4tCcQN8MOoH3hurD1djYVoOgrZYxcdzPBoR2UD7rfTnHzoGqC6A__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>   
             </div>
             <div id="myNav10" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav10').id)">&times;</a>
                 <div class="overlay-content">
-                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi1769259801/1434659607842-pgv4ql-1644871815663.mp4?Expires=1661300272&Signature=m6lUpcqIqrEzQp-7uKRY~yuv5b-3l7bjthOVpJPhKG1-fJsEGl6MCaDshrF743rmY7drpFShMgptOfM09U8ZTYP4aM9rcmkE7Pw-7od0MzerpRVrCOvnZSb6cT5PgY2kefn28rT3iun0GFOgYxwga7o1g0xKvkie0gjlKA8ZRJrhYvKhKmRj66UQyj7UqcJbPrkT~R54C09XVOlXJ5jrEvOwFwHshskqwEe9Qp8BkS3HeHvQiku-9trPlRfwtNswz50Jgb1EczMA243Lf2tGUB3bCRaqXR8uJEzsRxDn9JItD4bgvryc0RHfgfpsDJn-MNCZjoloiVFsS2ZmwPqKSw__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi3102262041/1434659607842-pgv4ql-1637255124781.mp4?Expires=1661556898&Signature=tSOxzUkticVzzVmbLFVWfT0vxkXbd2VLXovlZhfCazdQXgzMvvZr60L21zDZiSZQPAOAloyVh1n5LX8YCGoxomTou4~3GXjgdtInmfErl-~WTe1D6Y8~qbd0GUOHQIbyVHMpGzCSrqUw5BqwYP4Bgh69wN8B5gTGlG0puf6cBCg46fFcqeBYl69UgWCtnSIh8RyxQ-mudWuX4m9RYGEySJqze1KeJKdVhHspM4WRf5zi5rtxBXM19tP6RClvVqTCqQtquSxUjM3kemqvTAreVFJeXXg6vBEiQSh67yfQWqBRBnbcsg3BAxJAgnhINt9zORTECNIEvDFc-u00XAagNQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>   
             </div>
             <div id="myNav11" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav11').id)">&times;</a>
                 <div class="overlay-content">
-                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi2963325465/1434659607842-pgv4ql-1649700014159.mp4?Expires=1661300575&Signature=Gkk43PqH-xFNKzr7A~o5t90oS8hmK28w-GBFZSE3wMZTtAgBLRfHyZ1Y9E0-0~JFzFhnn4CYEmPZriwGJHMkO7m97k2MMcRUnK8WbaZ1HMtOjEMu5qgi-zmASWjaggv9yFUwjHvf23IciEsxVyNGJCe~WYlYd1JkHu0vsg18~PG4srsx5EBhSkSzIK50VgBrpoe4x8mPZXJ-amEK8-TfyONeGw7tpR9w5icZjy7L9c9a1qHiB2PKzvmSQonGWXcV~l3Tc0chioaAzh1WD3qR8MxG2sIKO9F7oIm3CIkxAOYykWvny91JftbCjaIIjxN~84KobRfYFU0FLwoaZorfiA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi2963325465/1434659607842-pgv4ql-1649700014159.mp4?Expires=1661556845&Signature=HEx~fPymdjYCWwBNCFrIaWr6Jt3KKgowvulZqLMthTpae2ed7w6bGSodIsTZgeeIgCNCRw~WH-2VItwX4jE7h8rB~7mHXR4L5CIA1rou1d9R2Ww5coyTHqk-mrTaVp5TmyIBLRHXIvxCMAvVfIC5w4J8KqrTz7P1XpRaXf311nANfFy5gLmqPLhExj9Y5XwgyUtvJEgvXT9I11~KqJhvJJDr2JpVxho~M7Au0nLpQj9qQz33Esyk1rFdMhIAhTbisbtkCdbD0AaYREctQMHIlA6Q3dMsaVQlN5Y0BoVYHS6m9DIhwUHLtUPJy3VYa8LFsIlcj37jaqTWwdSq~kbtIQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>   
             </div>
             <div id="myNav12" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav12').id)">&times;</a>
                 <div class="overlay-content">
-                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi544319001/1434659607842-pgv4ql-1616203155250.mp4?Expires=1661300979&Signature=QGk9tFSCmm6SnDFsA-BMPtnLHeCq~0Vt~Vcixvabw0Nd5y9Ea0fn5qmL1xTHaJ3XCe6JhUhhHQeejGnaDPlWtvsGW8aobzUjTRDR2E7atmdw9k~~33900FjhCa0IcE5LyL5NErAqTKXqUB-YtzGvLHlVXmEBllXK1tKMyN41JUpomWQ-9K6kFQBMNYTCxKaUnMRZ8nRIXl-RPREvHkPz8fB1Rw6DUeRAX-YyCiIzKaddSTqDerqzNpui9~N2SqUZ9sh2p~if-Z370Nss2dXP3f3kAEMAlIHMliyYL1qAod3d9WCoPiwKsutfOT6~EQ4pbPUJloJFjdNcHwG9YrIBkg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://imdb-video.media-imdb.com/vi544319001/1434659607842-pgv4ql-1616203155250.mp4?Expires=1661556848&Signature=ivZCyYfqO8Ex-yyNBfV1IinS1WHoimhwo3M2I06U71Ru1RYakEWmch3bEGWIotwJZt8Je4PdFq683Q~~ZXXydnr5hIfpFObgkKRRNTFk1jjKCMaRHqrIzpxZWL6KHuL5xYTB0ZazGUuZx3z40w0Snr3ncfo~sPEhtgEHyIcDBwgmXvGvWQ-cN-3WdYhfa1dwco4fN6FFZr9TDOBLg64iZcsf2EFx7FgNEsj32qftlaib6WQsno8DMjhns6hcG86q6mYJNFVs3ZR6bQR~frk7s17t8ALQuycDWwfsyV1KLENBt~hjwirTbtb82tfOK6wbW7QmMldqD~aT4M9s9bZz3A__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>   
             </div>
         </div>
