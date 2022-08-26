@@ -3,7 +3,8 @@
   }
   
   body {
-    font-family: "Roboto", sans-serif; 
+    font-family:var(--main-font);
+    background-color:var(--main-color);
   }
   
   .navbar {
@@ -96,7 +97,7 @@
     margin: 0 0 60px 10px;
   }
   .container {
-    background-color: #151515;
+    /* background-color: #151515; */
     min-height:calc(100vh - 50px);
     color: white;
     padding: 25px  0 45px 45px;
