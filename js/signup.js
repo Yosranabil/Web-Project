@@ -6,6 +6,7 @@ submitbutton.addEventListener("click", (event) => {
     let password=document.getElementById("pass");
     let mail =document.getElementById("mail");
     let phone=document.getElementById("phone");
+    let ttype=document.getElementById("type");
     let accounts = JSON.parse(localStorage.getItem("accounts")) ||[];
 
     let newaccount=
@@ -14,7 +15,7 @@ submitbutton.addEventListener("click", (event) => {
         pass : password.value,
         mail : mail.value,
         phone : phone.value,
-        type: "user"
+        type: ttype.value
         }
     
     accounts.push(newaccount);

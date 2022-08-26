@@ -13,8 +13,11 @@ submitbutton.addEventListener("click", (event) => {
                localStorage.setItem("currentUser",JSON.stringify(accounts[i]));
                  if(accounts[i].type =="admin"){
                    window.location.href= "admin.html";
-                 } else{
+                 } else if(accounts[i].type =="user"){
                     window.location.href= "Home.html";
+                  }
+                  else {
+                    window.alert("please create an account with admin or user option !")
                   }
               break;
             }
