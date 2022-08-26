@@ -57,6 +57,7 @@
 
   .left-menu-icon:hover , a:hover, .profile-text-container:hover{
     color:#AA14F0;
+    cursor: pointer;
   }
   
   .sidebar {
@@ -196,4 +197,10 @@ button{
 
   button:hover{
     transform: scale(1.1);
+  }
+
+
+  a{
+    color: white;
+    text-decoration: none;
   }

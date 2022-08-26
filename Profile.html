@@ -12,10 +12,7 @@
         <div class="logo-name"><h2>Your Movie Night</h2></div>
          <div class="menu-container">
             <ul class="menu-list">
-                <li class="menu-list-item-active">Home</li>
-                <li class="menu-list-item">Geners</li>
-                <li class="menu-list-item">login</li>
-                <li class="menu-list-item">Signup</li>
+                <li class="menu-list-item"><a href="signup.html">Logout</a></li>
             </ul>
          </div>
   </div>
@@ -35,6 +32,8 @@
            <input type="file" name="img" id="file" accept="image/*">
            <label for="file"  id="uploadbtn">Choose Photo</label>
         </div><br>
+
+
   <form action="" class="prof-form" method="post">      
       <div class="uname">
         <i class="fa-solid fa-user"></i>
@@ -55,14 +54,19 @@
            <i class="fa-solid fa-square-envelope"></i>
            <input type="email" placeholder="Enter your E-mail" id="mail" name="e-mail" required minlength="13">
         </div>
+
         <div class="phone">
          <i class="fa-solid fa-mobile-screen-button"></i>
          <input type="tel" name="phone" id="phone" placeholder="01...." minlength="11" maxlength="11" required pattern="[0-9]{11}" >
         </div>  
+
         
-        <button type="reset" style="float: left;margin:40px 0 0 10%">CANCEL</button>   
+        
+        <button type="reset" style="float: left;margin:40px 0 0 10%">CANCEL</button>  
        
         <button style="float: right;margin:40px 10%" id="submit">Submit</button>
+
+        
     </form> 
     </div>
   </div>
