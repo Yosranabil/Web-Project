@@ -1,4 +1,6 @@
 :root {
-    --main-font: "Roboto",sans-serif;
-    --main-color: blue;
+    --main-color: #151515;
 }
+body{
+    background-color:var(--main-color);
+} 

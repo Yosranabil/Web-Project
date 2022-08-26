@@ -9,11 +9,14 @@ updateButton.addEventListener('click',() => {
         headlineInput.value = "";
     }
 });
+function SetColor (color) {
+    document.documentElement.style.setProperty("--main-color" , color);
+};
 
-setColor(localStorage.getItem("mainColor") || "blue");
+SetColor(localStorage.getItem("mainColor") || "black");
 
 // setfont(localStorage.getItem("mainFont") ||' "Roboto",sans-serif' );
-
+ 
 function getColorElement(color) {
     return document.getElementById("color-" + color);
 }
@@ -24,16 +27,16 @@ function getColorElement(color) {
 
 getColorElement("red").addEventListener("click" , () => {
     localStorage.setItem("mainColor" , "red");
-    setColor(localStorage.getItem("mainColor") || "blue");
-});
-
-getColorElement("blue").addEventListener("click" , () => {
-    localStorage.setItem("mainColor" , "blue");
-    setColor(localStorage.getItem("mainColor") || "blue");
+    SetColor(localStorage.getItem("mainColor") || "black");
 });
 
 getColorElement("green").addEventListener("click" , () => {
     localStorage.setItem("mainColor" , "green");
-    setColor(localStorage.getItem("mainColor") || "blue");
+    SetColor(localStorage.getItem("mainColor") || "black");
+});
+
+getColorElement("blue").addEventListener("click" , () => {
+    localStorage.setItem("mainColor" , "blue");
+    SetColor(localStorage.getItem("mainColor") || "black");
 });
 

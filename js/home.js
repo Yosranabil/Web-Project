@@ -29,6 +29,6 @@ if(localStorage.getItem("header") == null) {
     headline.innerHTML = localStorage.getItem("header");
 }
 
-setColor(localStorage.getItem("mainColor") || "blue");
+SetColor(localStorage.getItem("mainColor") || "black");
 
-// setfont(localStorage.getItem("mainFont") ||' "Roboto",sans-serif' );
+// setfont(localStorage.getItem("mainFont") ||' "Roboto",sans-serif' ); 

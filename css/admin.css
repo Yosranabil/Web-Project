@@ -1,0 +1,85 @@
+
+.edit1,.edit2{
+  background-color: #AA14F0;
+  max-width: 400px;
+  margin: auto ;
+  padding: 45px;
+  text-align: center;
+  border-radius: 45px;
+  border: 5px dotted #38094e;
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+h1{
+    color:aliceblue;
+}
+#updateButton{
+    background: rgb(187, 227, 232);
+    width: 70px;
+    height: 50px;
+    padding: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+  }
+  input[type=text]{
+    width:250px;
+    border:5px solid #d2b7df;
+    border-radius:4px;
+    background-color: #d2b7df;
+
+  }
+ input[type=text]:focus{
+    width: 255px;
+    border:5px solid aqua;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #updateButton:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+  #color-red{
+    background: rgb(187, 227, 232);
+    width: 60px;
+    height: 50px;
+    padding: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+  }
+  #color-green{
+    background: rgb(187, 227, 232);
+    width: 60px;
+    height: 50px;
+    padding: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+  }
+  #color-blue{
+    background: rgb(187, 227, 232);
+    width: 60px;
+    height: 50px;
+    padding: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+  }
+ #color-blue:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+  #color-green:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+  #color-red:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
