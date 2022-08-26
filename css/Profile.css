@@ -58,6 +58,24 @@
   .left-menu-icon:hover , a:hover, .profile-text-container:hover{
     color:#AA14F0;
   }
+  
+  .sidebar {
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    flex-direction: column;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .left-menu-icon{
+    color: white;
+    font-size: 20px;
+    margin: 0 0 60px 10px;
+  }
   *{
     margin:0;
     padding: 0;
@@ -178,16 +196,4 @@ button{
 
   button:hover{
     transform: scale(1.1);
-  }
-
-  .eye{
-    position: absolute;
-    margin-top: 10px;
-    margin-left: -35px;
-    overflow:visible;
-    cursor: pointer;
-  }
-  
-  #show{
-    display: none;
   }
