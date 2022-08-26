@@ -3,24 +3,6 @@
    <head>
     <link rel="stylesheet" href="css/profile.css">
     <script src="https://kit.fontawesome.com/50edb78f3a.js" crossorigin="anonymous"></script>
-    <script>
-      function Show_Pass(){
-          var x = document.getElementById("pass");
-          var y = document.getElementById("show");
-          var z = document.getElementById("hide");
-
-          if(x.type === 'password'){
-              x.type = "text";
-              y.style.display = "block";
-              z.style.display = "none";
-          }
-          else{
-              x.type = "password";
-              y.style.display = "none";
-              z.style.display = "block";
-          }
-      }
-  </script>
     <title>Profile page</title>
    </head>  
 <body>
@@ -37,6 +19,14 @@
             </ul>
          </div>
   </div>
+  <aside class="sidebar">
+   <a href="Home.html"><i class="left-menu-icon fa-solid fa-house"></i></a><br>
+   <a href="Geners.html"><i class="left-menu-icon fa-solid fa-shapes"></i></a><br>
+   <a href="login.html"><i class="left-menu-icon fa-solid fa-right-to-bracket"></i></a><br>
+   <a href="signup.html"><i class="left-menu-icon fa-solid fa-user-plus"></a></i>
+
+
+</aside>
  <div class="container">
      <div class="profile">
       <h3>"Edit Profile"</h3><br><br>
@@ -45,7 +35,7 @@
            <input type="file" name="img" id="file" accept="image/*">
            <label for="file"  id="uploadbtn">Choose Photo</label>
         </div><br>
-  <form class="prof-form">      
+  <form action="" class="prof-form" method="post">      
       <div class="uname">
         <i class="fa-solid fa-user"></i>
         <input type="text" placeholder="Enter your Username" id="uname" name="name" required minlength="3">
@@ -59,10 +49,6 @@
                  required 
                  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,}$" 
                  title="Must contain at least one  number and one uppercase and lowercase letter and one symbol, and at least 8 characters">
-                 <span class="eye" onclick="Show_Pass()">
-                  <i id="show" class="fa-solid fa-eye"></i>
-                  <i id="hide" class="fa-solid fa-eye-slash"></i>
-                 </span>
                 
         </div>
         <div class="mail">
@@ -76,10 +62,12 @@
         
         <button type="reset" style="float: left;margin:40px 0 0 10%">CANCEL</button>   
        
-        <button style="float: right;margin:40px 10%">Submit</button>
+        <button style="float: right;margin:40px 10%" id="submit">Submit</button>
     </form> 
     </div>
   </div>
   <script src="js/Profile.js"></script>  
+
+  <script src="./js/login.js"></script>
 </body>
     </html>
