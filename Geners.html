@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/geners.css">
     <link href="https:/fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../Project-1/img/logo.png">
     <script src="https:/kit.fontawesome.com/63ad425d80.js" crossorigin="anonymous"></script>
     <title>Your Movie Night</title>
 </head>
@@ -363,7 +364,7 @@
                             <p class="movie-list-item-descr">
                                 Following the aftermath of a tragic accident that claimed the life of one of their twins, Rachel and Anthony relocate to the other side of the world with their surviving son.
                             </p>
-                            <button class="movie-list-item-button" onclick="openNav()">Watch Trailer</button>
+                            <button class="movie-list-item-button" onclick="openNav(document.getElementById('myNav13').id)">Watch Trailer</button>
                                 <div class="rating">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -717,6 +718,12 @@
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav12').id)">&times;</a>
                 <div class="overlay-content">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/0Vsy5KzsieQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>   
+            </div>
+            <div id="myNav13" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav(document.getElementById('myNav13').id)">&times;</a>
+                <div class="overlay-content">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OIyU2i_xAMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>   
             </div>
         </div>
